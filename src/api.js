@@ -3,8 +3,6 @@ import { ACCESS_TOKEN } from "./constants";
 
 // defining the axios interceptor!
 
-console.log("API Base URL:", import.meta.env.VITE_API_URL); // debug
-
 // create the api with the backend url variable in the environment
 const api = axios.create({
   baseURL: import.meta.env.VITE_API_URL,

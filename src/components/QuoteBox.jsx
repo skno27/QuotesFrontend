@@ -45,7 +45,6 @@ function QuoteBox({ quotes, onDelete }) {
     if (newIndex === quotes.length) {
       newIndex = 0;
     }
-    console.log(newIndex);
     setQuote(quotes[newIndex]);
   }
 

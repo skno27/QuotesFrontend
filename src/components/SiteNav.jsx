@@ -6,7 +6,6 @@ const SiteNavigator = () => {
   const pathname = location.pathname;
 
   if (pathname.includes("login")) {
-    console.log("Login Page");
     return (
       <nav
         id="site-navigator"
@@ -17,7 +16,6 @@ const SiteNavigator = () => {
     );
   } else if (pathname.includes("users")) {
     if (localStorage.getItem(ACCESS_TOKEN)) {
-      console.log("Users Page -- Logged In");
       return (
         <nav
           id="site-navigator"
@@ -28,7 +26,6 @@ const SiteNavigator = () => {
         </nav>
       );
     } else {
-      // console.log("Users Page -- Not Logged In");
       return (
         <nav
           id="site-navigator"

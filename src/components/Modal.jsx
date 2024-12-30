@@ -3,8 +3,6 @@ import ModalQuoteBox from "./ModalQuoteBox";
 import PropTypes from "prop-types";
 
 const Modal = ({ user, onClose, quotes }) => {
-  console.log("Modal User:", user);
-  console.log("Modal Quotes:", quotes);
   return (
     <div
       className="modal-overlay"
