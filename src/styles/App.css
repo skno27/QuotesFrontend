@@ -1,0 +1,32 @@
+:root {
+  --yell: #fff00089;
+  --gr: #ccc;
+}
+
+* {
+  font-family: "Avenir Next" !important; /* snapchat font ;) */
+}
+
+body {
+  /* background-color: #c2eac2; */
+  background-color: white;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center; */
+  text-align: center;
+  /* border: 20px solid black; */
+  height: 100vh;
+  /* height: 100vh; */
+}
+
+.main-content {
+  /* margin-top: 100px; */
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+/* header {
+  max-width: 100%;
+} */

@@ -1,0 +1,47 @@
+.italic {
+  font-style: italic;
+}
+
+.base {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 2px solid black; */
+}
+
+.base-container {
+  text-align: center;
+  background: var(--yell);
+  margin: 20px auto 20px auto;
+  border-radius: 20px;
+  max-width: 300px;
+  max-height: 400px;
+}
+
+.center {
+  text-align: center;
+}
+
+.base-routing a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  /* border: 2px solid black; */
+  /* justify-content: space-around; */
+}
+
+.navigation {
+  padding: 20px;
+  color: black;
+  width: 100px;
+}
+
+.navbar a:not(:last-child) {
+  border-right: 1px solid #ccc;
+}
+
+footer {
+  margin-top: 20px;
+}

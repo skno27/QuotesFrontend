@@ -1,0 +1,66 @@
+.quote-box-container {
+  padding: 40px 50px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-width: 40%;
+  max-height: 100vh;
+  background-color: #fff;
+}
+
+.hash {
+  font-size: xx-large;
+  font-style: italic;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-style: italic;
+}
+
+button {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  box-shadow: none;
+}
+
+.btn-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 20px 15px 20px;
+  /* border: 2px solid black; */
+}
+
+.side {
+  display: flex;
+  align-items: center;
+  /* border: 2px solid black; */
+}
+
+#tweet {
+  margin-right: 10%;
+}
+
+.space {
+  flex-grow: 1;
+}
+
+.delete-button {
+  background-color: #f44336; /* Red */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.delete-button:hover {
+  background-color: #d32f2f; /* Darker red */
+}

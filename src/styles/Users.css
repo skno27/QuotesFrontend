@@ -1,0 +1,17 @@
+.users-container {
+  background-color: white;
+  height: 100vh;
+  padding: 50px 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-bottom: 50px;
+}
+
+.user-info-container {
+  border: none;
+  border-radius: 20px;
+  background-color: var(--yell);
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
