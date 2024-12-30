@@ -65,8 +65,6 @@ function Home() {
     }
   };
 
-  console.log("Quotes:", quotes);
-
   return (
     <div id="home-container">
       <div>
@@ -105,15 +103,6 @@ function Home() {
           <option value="BLACK">Black</option>
           <option value="WHITE">White</option>
         </select>
-
-        {/* <input
-          type="text"
-          id="color"
-          name="color"
-          required
-          onChange={(e) => setColor(e.target.value)}
-          value={color}
-        /> */}
         <br />
         <label htmlFor="body">Body</label>
         <textarea

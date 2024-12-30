@@ -92,6 +92,7 @@ function ModalQuoteBox({ quotes }) {
       });
       if (response.status === 201) {
         setQuoteComments((prevComments) => [...prevComments, response.data]);
+        console.log("quoteComments:", quoteComments);
         setComment("");
         alert("Comment submitted");
       }
