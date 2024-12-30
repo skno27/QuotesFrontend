@@ -17,7 +17,6 @@ function Home() {
     const fetchQuotes = async () => {
       try {
         const response = await api.get(`/users/${userId}/quotes`);
-        console.log("Response:", response);
         setQuotes([...response.data.quotes]);
       } catch (error) {
         alert("Failed to fetch quotes.");

@@ -65,7 +65,7 @@ function QuoteBox({ quotes, onDelete }) {
         {quote.body}
         <span className="hash">&rdquo;</span>
       </h3>
-      <p className="words author">- {quote.author.name}</p>
+      <p className="words author">- {quote.author.name || "Unknown"}</p>
       <div className="btn-row">
         <div className="left side">
           <button
